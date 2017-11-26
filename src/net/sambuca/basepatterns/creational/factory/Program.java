@@ -5,7 +5,9 @@ package net.sambuca.basepatterns.creational.factory;
  */
 public class Program {
     public static void main(String[] args) {
-        Developer developer = new CppDeveloper();
+        DeveloperFactory developerFactory = new JavaDeveloperFactory();
+        Developer developer = developerFactory.createDeveloper();
+
         developer.writeCode();
     }
 }
