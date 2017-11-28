@@ -1,8 +1,5 @@
 package net.sambuca.basepatterns.behavioral.state;
 
-/**
- * Created by smb on 28.11.2017.
- */
 public class Developer {
     Activity activity;
 
