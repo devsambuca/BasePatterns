@@ -10,5 +10,4 @@ public abstract class TemplatePage {
         System.out.println("Footer");
     }
     public abstract void showPageContent();
-
 }
