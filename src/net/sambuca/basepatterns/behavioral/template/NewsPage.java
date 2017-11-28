@@ -1,9 +1,9 @@
 package net.sambuca.basepatterns.behavioral.template;
 
-public class NewsPage {
-    public void showPage() {
-        System.out.println("Header");
+public class NewsPage extends TemplatePage {
+
+    @Override
+    public void showPageContent() {
         System.out.println("News");
-        System.out.println("Footer");
     }
 }
