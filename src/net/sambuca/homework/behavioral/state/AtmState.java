@@ -1,4 +1,4 @@
-package net.sambuca.homework.behavioral;
+package net.sambuca.homework.behavioral.state;
 
 /**
  * Created by smb on 06.12.2017.
