@@ -16,7 +16,7 @@ public class Working implements AtmState {
         int cashStock = atm.getCashStock();
         if (amount > cashStock) {
             amount = cashStock;
-            System.out.println("Partial amount ");
+            System.out.print("Partial amount ");
         }
         System.out.println(amount + "$ is dispensed");
         int newCashStock = cashStock - amount;
