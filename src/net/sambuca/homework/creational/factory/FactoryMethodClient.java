@@ -2,9 +2,6 @@ package net.sambuca.homework.creational.factory;
 
 import java.util.Scanner;
 
-/**
- * Created by smb on 08.12.2017.
- */
 public class FactoryMethodClient {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
